@@ -1,0 +1,42 @@
+textarea {
+    min-height: 400px;
+}
+
+.email, .left, .headers-div {
+    display: flex;
+}
+
+.email {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.sender {
+    width: 230px;
+}
+
+.headers {
+    margin-bottom: 20px;
+}
+
+.headers-div {
+    justify-content: space-between;
+}
+
+.message-body {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.email.read {
+    background-color: var(--light);
+  }
+  
